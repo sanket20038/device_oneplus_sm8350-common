@@ -291,6 +291,7 @@ PRODUCT_PACKAGES += \
     init.oplus.hw.rc \
     init.oplus.hw.rc.recovery \
     init.oplus.rc \
+    init.oplus_extras.rc \
     init.oplus.sh \
     init.qcom.early_boot.sh \
     init.qcom.rc \
@@ -343,6 +344,10 @@ PRODUCT_PACKAGES += \
     libOmxQcelp13Enc \
     libstagefrighthw
 
+# OPlusExtras
+PRODUCT_PACKAGES += \
+    OPlusExtras
+
 # Overlays
 $(call inherit-product, hardware/oplus/overlay/generic/generic.mk)
 $(call inherit-product, hardware/oplus/overlay/qssi/qssi.mk)
@@ -354,6 +359,7 @@ PRODUCT_ENFORCE_RRO_TARGETS := *
 PRODUCT_PACKAGES += \
     CarrierConfigResCommon \
     FrameworksResTarget \
+    OPlusExtrasResCommon \
     OPlusFrameworksResCommon \
     OPlusSettingsResCommon \
     OPlusSystemUIResCommon \
