@@ -34,6 +34,8 @@ PRODUCT_PACKAGES += \
     android.hardware.audio.effect@6.0-impl \
     android.hardware.audio.service \
     android.hardware.bluetooth.audio-impl \
+    android.hardware.audio.service \
+    android.hardware.audio.sounddose-vendor-impl \
     android.hardware.soundtrigger@2.3-impl \
     audio.bluetooth.default \
     audio.primary.lahaina \
@@ -54,6 +56,7 @@ PRODUCT_PACKAGES += \
     libssrec \
     libstdc++_vendor \
     libvolumelistener \
+    libldacBT_bco \
     sound_trigger.primary.lahaina:32
 
 AUDIO_HAL_DIR := hardware/qcom-caf/sm8350/audio
