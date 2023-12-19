@@ -358,6 +358,10 @@ PRODUCT_PACKAGES += \
     libprotobuf-cpp-full \
     libprotobuf-cpp-full-3.9.1-vendorcompat
 
+# RemovePackages
+PRODUCT_PACKAGES += \
+    RemovePackages
+
 # QMI
 PRODUCT_PACKAGES += \
     libjson \
