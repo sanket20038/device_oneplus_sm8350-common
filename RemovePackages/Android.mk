@@ -8,27 +8,14 @@ LOCAL_OVERRIDES_PACKAGES := \
     SoundAmplifierPrebuilt \
     ScribePrebuilt \
     DevicePolicyPrebuilt \
-    GoogleCamera \
-    YouTube \
     GooglePrintRecommendationService \
     arcore \
-    TurboPrebuilt \
-    SafetyHubPrebuilt \
     LocationHistoryPrebuilt \
     TagGoogle \
-    Music \
     Panic \
     SafetyRegulatoryInfo \
     Stk \
-    DevCamera \
-    Camera2 \
-    CalculatorGooglePrebuilt \
-    CalendarGooglePrebuilt \
-    Photos \
-    arcore \
-    RecorderPrebuilt \
     Velvet \
-    WellbeingPrebuilt \
     WfcActivation \
     Drive \
     PlayAutoInstallConfig \
