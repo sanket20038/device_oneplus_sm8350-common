@@ -39,7 +39,7 @@ import java.util.Arrays;
 import java.util.List;
 
 import com.android.settingslib.widget.MainSwitchPreference;
-import com.android.settingslib.widget.OnMainSwitchChangeListener;
+
 
 public class DolbySettingsFragment extends PreferenceFragment implements
         OnPreferenceChangeListener, OnCheckedChangeListener {
