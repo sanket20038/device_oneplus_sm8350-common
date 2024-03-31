@@ -9,7 +9,7 @@
     <integer name="config_network_scan_helper_max_search_time_sec">254</integer>
 
     <!-- About device screen, build maintainer -->
-    <string name="build_maintainer_summary">SID</string>
+    <string name="build_maintainer_summary">SANKETP</string>
 
 
     <!-- Whether to show min/max refresh rate in display settings -->
